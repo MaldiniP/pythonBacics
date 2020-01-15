@@ -49,5 +49,100 @@ a tuple is immutable
 """
 dow = ("m","t","w","th","fr","sa","su")
 
+taskList = [23,"Jane",["Lesson23",560,{"currency" : "KES"}],987,(76,"John")]
+print(taskList)
+print(taskList[1])
+print(taskList[2][2]['currency'])
+print(taskList[2][1])
 
+
+taskListLength = len(taskList)
+print(taskListLength)
+
+myNumberx = taskList[3]
+print(myNumberx)
+
+myDictionary = {"Product" : "Lifevest"}
+print(type(myDictionary))
+
+#syntax
+
+this_dict ={
+    "name":"Paul",
+    "interest":["swimming", "football"],
+    "age":16,
+    "workday":("mon", "tue", "wed"),
+    "parents":{
+        "mother":{
+            "first_name":"sarah"
+        }
+    }
+}
+
+print(this_dict)
+
+print(this_dict["parents"]["mother"]["first_name"])
+
+
+# my dictionary
+
+"""
+my_dictry = {
+    "my_name":"Paul",
+    "primary_schools":
+        {
+        "first_p":"Ronald Ngala",
+            {
+            "approximate_pop":
+                {"boys" : 500,
+                 "girls": 650,
+                 "total":100
+                 },
+            },
+            {
+            "headteacher":
+                {"first_name":""James"},
+                {"second_name":""Muhoti"},
+            }
+        },
+        {"second_p":"James Gichuru",
+            {
+            "approximate_pop":
+                {"boys" : 100, "girls": 200, "total":300},
+            },
+            {
+            "headteacher":"Otieno"
+            }
+        }
+        }
+}
+}
+"""
+
+# task 3
+numbers = [1023, 43546, 678345, 54767]
+print(max(numbers))
+print(numbers[1])
+
+new_listw =[]
+new_listw.append(numbers[0])
+new_listw.append(numbers[-1])
+
+print(new_listw)
+
+
+tuppleOne = (1,2,3,4,5,6,7,8,9,10)
+
+print(tuppleOne)
+first_half = tuppleOne[0:5]
+second_half = tuppleOne[5:]
+print(first_half)
+print(second_half)
+
+B1= str(first_half)
+print(type(B1.strip("()")))
+B2= str(second_half)
+
+print(B1.strip("()"))
+print(B2.strip("()"))
 
