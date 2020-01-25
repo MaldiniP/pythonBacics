@@ -146,3 +146,6 @@ B2= str(second_half)
 print(B1.strip("()"))
 print(B2.strip("()"))
 
+
+
+
